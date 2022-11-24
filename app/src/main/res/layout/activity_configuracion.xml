@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context=".ConfiguracionActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilNickName"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:hint="@string/nick"
+        app:endIconMode="clear_text"
+        app:startIconDrawable="@drawable/ic_baseline_person_24"
+        app:startIconContentDescription="persona_nick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtNick"
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <RadioGroup
+        android:id="@+id/rbsNiveles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tilNickName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="70dp">
+
+        <RadioButton
+            android:id="@+id/rbFacil"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/facil"/>
+        <RadioButton
+            android:id="@+id/rbMedio"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/medio"/>
+        <RadioButton
+            android:id="@+id/rbDificil"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/dificil"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:text="@string/guardar"
+        android:textAllCaps="false"
+        app:cornerRadius="100dp"
+        app:layout_constraintEnd_toEndOf="@id/rbsNiveles"
+        app:layout_constraintStart_toStartOf="@+id/rbsNiveles"
+        app:layout_constraintTop_toBottomOf="@+id/rbsNiveles" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

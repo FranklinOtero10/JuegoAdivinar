@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">EO17–I04–001</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="salir">Salir</string>
+    <string name="nombre_est">Franklin Abelino Espinoza Otero</string>
+    <string name="cod_est">EO17–I04–001</string>
+    <string name="nombre_est1">Dannis Osmel Sánchez López</string>
+    <string name="cod_est1">SL14–I04–001</string>
+    <string name="ver">Versión 1.0.0</string>
+    <string name="derechos">Todos los derechos reservados ©</string>
+    <string name="segunda_evaluacion_dm">Segunda evaluación DM</string>
+    <string name="configuracion">Configuracion</string>
+    <string name="iniciarjuego">Iniciar Juego</string>
+    <string name="puntajesaltos">Puntajes Altos</string>
+    <string name="nick">NICK</string>
+    <string name="facil">Facil</string>
+    <string name="medio">Medio</string>
+    <string name="dificil">Dificil</string>
+    <string name="guardar">Guardar</string>
+    <string name="adivina_el_numero">Adivina el número</string>
+    <string name="numero">Digite un número</string>
+    <string name="adivinar">Adivinar</string>
+    <string name="intentos">Intentos:</string>
+    <string name="jugador">Jugador:</string>
+    <string name="nivel_seleccionado">Nivel Seleccionado:</string>
+    <string name="imgUsuario">ImgUsuario</string>
+    <string name="puntajes_m_s_altos">Puntajes más altos</string>
+    <string name="info_juego">Info. Juego</string>
+    <string name="acercaJuego">Adivina el número</string>
+    <string name="descJuego">El juego consiste en adivinar un número según el nivel seleccionado</string>
+    <string name="descNivelF">- Fácil (números del 1 al 50)</string>
+    <string name="descNivelM">- Medio (números del 1 al 100)</string>
+    <string name="descNivelD">- Difícil (números del 1 al 150)</string>
+</resources>
